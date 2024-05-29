@@ -3,6 +3,7 @@ import vue from "@vitejs/plugin-vue";
 
 export default defineConfig({
   plugins: [vue()], // 配置需要使用的插件列表
+  base: './', // 部署站点的基础路径
 
   // 本地运行配置，及反向代理配置
   server: {
